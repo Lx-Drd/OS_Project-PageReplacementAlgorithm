@@ -123,19 +123,19 @@ public class Renderer {
     // ─────────────────────────────────────────────────────────
     public static void splash() {
         ln(CYAN + BOLD);
-        ln("  ╔══════════════════════════════════════════════════════════╗");
-        ln("  ║                                                          ║");
-        ln("  ║     ✦  PAGE REPLACEMENT ALGORITHM DEMO  ✦               ║");
-        ln("  ║                                                          ║");
-        ln("  ║     LIRS  ·  CLOCK-Pro  ·  ARC                           ║");
-        ln("  ║                                                          ║");
-        ln("  ║        By: Hatim Al-Muzaini | 451008063                  ║");
-        ln("  ║          & Moayad Al-Beladi | 451008293                  ║");
-        ln("  ║                                                          ║");
-        ln("  ║     Operating Systems Project  ·  2025-26                ║");
-        ln("  ║     Islamic University of Madinah                        ║");
-        ln("  ║                                                          ║");
-        ln("  ╚══════════════════════════════════════════════════════════╝");
+        ln("  ╔═══════════════════════════════════════════════════════════╗");
+        ln("  ║                                                           ║");
+        ln("  ║     ✦  PAGE REPLACEMENT ALGORITHM DEMO  ✦                ║");
+        ln("  ║                                                           ║");
+        ln("  ║           LIRS  ·  CLOCK-Pro  ·  ARC                      ║");
+        ln("  ║                                                           ║");
+        ln("  ║        By: Hatim Al-Muzaini | 451008063                   ║");
+        ln("  ║          & Moayad Al-Beladi | 451008293                   ║");
+        ln("  ║                                                           ║");
+        ln("  ║     Operating Systems Project  ·  2025-26                 ║");
+        ln("  ║     Islamic University of Madinah                         ║");
+        ln("  ║                                                           ║");
+        ln("  ╚═══════════════════════════════════════════════════════════╝");
         ln(RESET);
         ln(DIM + CYAN
             + "  ✦   ·  ✦  ·   ·   ✦     ·   ✦  ·  ·   ✦   ·    ✦  ·   ✦"
@@ -165,6 +165,8 @@ public class Renderer {
             + "— random / locality-based    " + CYAN + "│");
         ln("  │   " + CYAN     + "[6]" + RESET + "  " + BOLD + "Settings            " + RESET
             + "— frames / pages / hot set   " + CYAN + "│");
+        ln("  │   " + GREEN    + "[7]" + RESET + "  " + BOLD + "Batch Runner        " + RESET
+            + "— run N tests, export CSV    " + CYAN + "│");
         ln("  │                                                         │");
         ln("  ├─────────────────────────────────────────────────────────┤");
         ln("  │   " + RED      + "[0]" + RESET
@@ -181,10 +183,11 @@ public class Renderer {
         clearScreen();
         ln(CYAN + BOLD);
         ln("  ╔══════════════════════════════════════════════════════════╗");
+        ln("  ║✦   ·  ✦  ·   ·   ✦     ·   ✦  ·  ·   ✦   ·    ✦  ·   ✦║");
         ln("  ║                                                          ║");
-        ln("  ║     Thanks for watching the demo!  ✦  Good luck!         ║");
-        ln("  ║     OS Project 2025-26                                   ║");
+        ln("  ║                 Thanks for Listening! ✦                  ║");
         ln("  ║                                                          ║");
+        ln("  ║✦   ·  ✦  ·   ·   ✦     ·   ✦  ·  ·   ✦   ·    ✦  ·   ✦║");
         ln("  ╚══════════════════════════════════════════════════════════╝");
         ln(RESET);
     }

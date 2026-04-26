@@ -27,7 +27,7 @@ public class SimConfig {
             && hotRatio  >  0.0 && hotRatio < 1.0;
     }
 
-    /** Human-readable summary shown in every panel header. */
+    /** A readable summary shown in every panel header. */
     public String summary() {
         if (fixedRefs != null)
             return "fixed refs (" + fixedRefs.length + " steps)"

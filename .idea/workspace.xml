@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2552ac42-70e3-488f-8c92-b6bb8955199a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OS_Project-PageReplacementAlgorithm/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OS_Project-PageReplacementAlgorithm/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OS_Project-PageReplacementAlgorithm/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/SimConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/SimConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ui/DemoUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/DemoUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ui/Renderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Renderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/panels/AlgoPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/panels/AlgoPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/panels/ComparePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/panels/ComparePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/panels/WorkloadPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/panels/WorkloadPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/workload/WorkloadGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workload/WorkloadGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/panels/ConfigPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/panels/ConfigPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +80,7 @@
       <updated>1777237033516</updated>
       <workItem from="1777237034787" duration="13000" />
       <workItem from="1777237076561" duration="480000" />
-      <workItem from="1777237569647" duration="3001000" />
+      <workItem from="1777237569647" duration="4314000" />
     </task>
     <servers />
   </component>

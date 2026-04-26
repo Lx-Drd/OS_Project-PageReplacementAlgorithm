@@ -30,6 +30,7 @@ public class DemoUI {
         ComparePanel  comparePanel  = new ComparePanel(ALGOS, COLORS, cfg);
         WorkloadPanel workloadPanel = new WorkloadPanel(ALGOS, COLORS, cfg);
         ConfigPanel   configPanel   = new ConfigPanel(cfg);
+        BatchPanel    batchPanel    = new BatchPanel(ALGOS, COLORS, cfg);
 
         Renderer.clearScreen();
         Renderer.splash();
@@ -48,6 +49,7 @@ public class DemoUI {
                 case "4" -> comparePanel.show(sc);
                 case "5" -> workloadPanel.show(sc);
                 case "6" -> configPanel.show(sc);
+                case "7" -> batchPanel.show(sc);
                 case "0" -> running = false;
                 default  -> { Renderer.error("Invalid option. Try again."); pause(600); }
             }
