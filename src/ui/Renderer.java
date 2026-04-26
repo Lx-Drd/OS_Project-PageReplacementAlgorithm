@@ -1,5 +1,6 @@
 package ui;
 
+import model.SimConfig;
 import model.SimulationResult;
 import model.TraceStep;
 
@@ -26,7 +27,7 @@ public class Renderer {
     public static void sectionHeader(String title, String color) {
         ln(color + BOLD);
         ln("  ╔══════════════════════════════════════════════════════════╗");
-        ln("  ║ " + pad(title, 56) + "║");
+        ln("  ║ " + pad(title, 56) + " ║");
         ln("  ╚══════════════════════════════════════════════════════════╝");
         ln(RESET);
     }
@@ -129,7 +130,7 @@ public class Renderer {
         ln("  ║     LIRS  ·  CLOCK-Pro  ·  ARC                           ║");
         ln("  ║                                                          ║");
         ln("  ║        By: Hatim Al-Muzaini | 451008063                  ║");
-        ln("  ║        & Moayad Al-Blaadi | 451008293                    ║");
+        ln("  ║          & Moayad Al-Beladi | 451008293                  ║");
         ln("  ║                                                          ║");
         ln("  ║     Operating Systems Project  ·  2025-26                ║");
         ln("  ║     Islamic University of Madinah                        ║");
@@ -142,7 +143,7 @@ public class Renderer {
         ln();
     }
 
-    public static void mainMenu() {
+    public static void mainMenu(SimConfig cfg) {
         ln(CYAN
             + "  ┌─────────────────────────────────────────────────────────┐");
         ln("  │  " + BOLD + WHITE + "✦  MAIN MENU" + RESET + CYAN
@@ -162,12 +163,16 @@ public class Renderer {
             + "— side-by-side results       " + CYAN + "│");
         ln("  │   " + WHITE    + "[5]" + RESET + "  " + BOLD + "Workload Simulator  " + RESET
             + "— random / locality-based    " + CYAN + "│");
+        ln("  │   " + CYAN     + "[6]" + RESET + "  " + BOLD + "Settings            " + RESET
+            + "— frames / pages / hot set   " + CYAN + "│");
         ln("  │                                                         │");
         ln("  ├─────────────────────────────────────────────────────────┤");
         ln("  │   " + RED      + "[0]" + RESET
             + "  Exit                                             " + CYAN + "│");
         ln("  └─────────────────────────────────────────────────────────┘"
             + RESET);
+        ln();
+        ln(DIM + "  Config: " + RESET + CYAN + cfg.summary() + RESET);
         ln();
         pr(CYAN + "  ❯ " + RESET + "Enter choice: ");
     }
