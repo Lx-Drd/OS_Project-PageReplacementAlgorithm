@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ac44df5-f79d-40a3-a5e9-0e53e1b6496f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OS_Project-PageReplacementAlgorithm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/ARC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/CLOCKPro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/LIRS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/PageReplacementAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/SimulationResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/TraceStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/DemoUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/Renderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/panels/AlgoPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/panels/ComparePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/panels/WorkloadPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/workload/WorkloadGenerator.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3CpSETqnZIAIT8c20H7Lx6yjoi4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DemoUI.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lx-Drd\Documents\GitHub\OS_Project-PageReplacementAlgorithm\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DemoUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.DemoUI" />
+      <module name="OS_Project-PageReplacementAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DemoUI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ac44df5-f79d-40a3-a5e9-0e53e1b6496f" name="Changes" comment="" />
+      <created>1777080906683</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1777080906683</updated>
+      <workItem from="1777080907868" duration="396000" />
+      <workItem from="1777157443566" duration="8246000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/OS_Project_PageReplacementAlgorithm$DemoUI.ic" NAME="DemoUI Coverage Results" MODIFIED="1777169117951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ui.*</FILTER>
+    </SUITE>
+  </component>
+</project>

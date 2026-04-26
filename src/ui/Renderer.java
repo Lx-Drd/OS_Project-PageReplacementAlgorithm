@@ -128,6 +128,9 @@ public class Renderer {
         ln("  ║                                                          ║");
         ln("  ║     LIRS  ·  CLOCK-Pro  ·  ARC                           ║");
         ln("  ║                                                          ║");
+        ln("  ║        By: Hatim Al-Muzaini | 451008063                  ║");
+        ln("  ║        & Moayad Al-Blaadi | 451008293                    ║");
+        ln("  ║                                                          ║");
         ln("  ║     Operating Systems Project  ·  2025-26                ║");
         ln("  ║     Islamic University of Madinah                        ║");
         ln("  ║                                                          ║");
