@@ -132,7 +132,7 @@ public class Renderer {
         ln("  ║        By: Hatim Al-Muzaini | 451008063                  ║");
         ln("  ║          & Moayad Al-Beladi | 451008293                  ║");
         ln("  ║                                                          ║");
-        ln("  ║     Operating Systems Project  ·  2025-26                ║");
+        ln("  ║     Operating Systems Project  ·  Section: 3419          ║");
         ln("  ║     Islamic University of Madinah                        ║");
         ln("  ║                                                          ║");
         ln("  ╚══════════════════════════════════════════════════════════╝");
