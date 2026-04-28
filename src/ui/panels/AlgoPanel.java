@@ -41,7 +41,6 @@ public class AlgoPanel {
 
         Renderer.traceTable(result, colA, colB, color);
         Renderer.stats(result, color);
-        Renderer.pressEnter();
-        sc.nextLine();
+        Renderer.pressEnter(sc);
     }
 }

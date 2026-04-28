@@ -103,7 +103,7 @@ public class BatchPanel {
                     cfg.refLength, cfg.hotRatio, run);
             } catch (IOException e) {
                 Renderer.error("CSV write error: " + e.getMessage());
-                Renderer.pressEnter(); sc.nextLine(); return;
+                Renderer.pressEnter(sc); return;
             }
 
             // Progress bar
@@ -164,8 +164,7 @@ public class BatchPanel {
         Renderer.ln("     " + Renderer.BOLD + trendFile   + Renderer.RESET + Renderer.DIM + "  ← hit ratio over time"   + Renderer.RESET);
         Renderer.ln(Renderer.DIM + Renderer.RESET);
         Renderer.ln();
-        Renderer.pressEnter();
-        sc.nextLine();
+        Renderer.pressEnter(sc);
     }
 
     // ─────────────────────────────────────────────────────────
@@ -288,10 +287,9 @@ public class BatchPanel {
 
         Renderer.ln();
         Renderer.ln(Renderer.GREEN + "  ✓  Saved: " + Renderer.RESET + Renderer.BOLD + sweepFile + Renderer.RESET);
-        Renderer.ln(Renderer.DIM + "  Open in Excel → Insert → Line/Bar Chart." + Renderer.RESET);
+        Renderer.ln(Renderer.DIM + Renderer.RESET);
         Renderer.ln();
-        Renderer.pressEnter();
-        sc.nextLine();
+        Renderer.pressEnter(sc);
     }
 
     // ─────────────────────────────────────────────────────────

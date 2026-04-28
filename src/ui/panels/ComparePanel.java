@@ -65,7 +65,6 @@ public class ComparePanel {
         Renderer.ln("  " + Renderer.GREEN + Renderer.BOLD + winLabel + Renderer.RESET);
         Renderer.ln();
 
-        Renderer.pressEnter();
-        sc.nextLine();
+        Renderer.pressEnter(sc);
     }
 }
