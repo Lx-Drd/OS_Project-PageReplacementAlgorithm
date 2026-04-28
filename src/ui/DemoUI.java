@@ -4,6 +4,7 @@ import algorithms.*;
 import model.SimConfig;
 import ui.panels.*;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class DemoUI {
@@ -19,7 +20,7 @@ public class DemoUI {
         Renderer.YELLOW,    // LIRS
         Renderer.MAGENTA,   // CLOCK-Pro
         Renderer.BLUE,      // ARC
-        Renderer.GREEN      // OPT (best possible — reference)
+        Renderer.GREEN      // OPT
     };
 
     public static void main(String[] args) {
@@ -43,7 +44,10 @@ public class DemoUI {
         while (running) {
             Renderer.clearScreen();
             Renderer.mainMenu(cfg);
+
+            flushInput();                        // discard any junk in the buffer
             String choice = sc.nextLine().trim();
+            if (choice.isEmpty()) continue;      // ignore bare Enters / escape noise
 
             switch (choice) {
                 case "1" -> lirsPanel.show(sc);
@@ -60,6 +64,18 @@ public class DemoUI {
         }
 
         Renderer.goodbye();
+    }
+
+    /**
+     * Drains any bytes already sitting in System.in before we ask for input.
+     * Prevents scroll events, mouse clicks, and focus-change escape sequences
+     * from being read as menu choices.
+     */
+    private static void flushInput() {
+        try {
+            while (System.in.available() > 0)
+                System.in.read();
+        } catch (IOException ignored) {}
     }
 
     private static void pause(long ms) {

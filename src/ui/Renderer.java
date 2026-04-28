@@ -106,7 +106,7 @@ public class Renderer {
         int max = 1;
         for (SimulationResult r : results) max = Math.max(max, r.pageFaults);
 
-        String[] colors = {YELLOW, MAGENTA, BLUE};
+        String[] colors = {YELLOW, MAGENTA, BLUE, GREEN};
         for (int i = 0; i < results.length; i++) {
             int barLen = (int)((double) results[i].pageFaults / max * 30);
             String bar  = colors[i] + "█".repeat(barLen) + RESET;
@@ -186,13 +186,21 @@ public class Renderer {
         ln(CYAN + BOLD);
         ln("  ╔══════════════════════════════════════════════════════════╗");
         ln("  ║                                                          ║");
-        ln("  ║     Thanks for watching the demo!  ✦  Good luck!         ║");
-        ln("  ║     OS Project 2025-26                                   ║");
+        ln("  ║     Thanks for watching the demo!  ✦                    ║");
+        ln("  ║     CIS(3361) | Section: 3419                            ║");
         ln("  ║                                                          ║");
         ln("  ╚══════════════════════════════════════════════════════════╝");
         ln(RESET);
     }
 
+    public static void pressEnter(java.util.Scanner sc) {
+        ln();
+        ln(DIM + "  Press " + RESET + CYAN + "ENTER" + RESET
+            + DIM + " to return to menu..." + RESET);
+        sc.nextLine();
+    }
+
+    @Deprecated
     public static void pressEnter() {
         ln();
         ln(DIM + "  Press " + RESET + CYAN + "ENTER" + RESET
